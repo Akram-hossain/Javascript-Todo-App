@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App - Javascript</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="main-body">
+                <div class="input">   
+                    <h2>Todo List</h2>
+                     <a href="javascript:void(0)" class="mybutton">Action</a> 
+                </div>
+                <div class="output"> 
+                    <form action="">
+                        <label for="input-todo">Create todo:</label>
+                        <input type="text" placeholder="Enter value" id="input-todo" required>
+                        <button type="submit" class="submit-bttn">Create</button>
+                    </form>
+                    <div class="message"></div>
+                    <div class="todo-lists">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- todo script @S -->
+    <script src="./js/todo-app.js"></script>
+</body>
+</html>
